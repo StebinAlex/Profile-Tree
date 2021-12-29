@@ -13,6 +13,10 @@
 		C468FBE7277C85C8005EE775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C468FBE5277C85C8005EE775 /* Main.storyboard */; };
 		C468FBE9277C85C9005EE775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C468FBE8277C85C9005EE775 /* Assets.xcassets */; };
 		C468FBEC277C85C9005EE775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C468FBEA277C85C9005EE775 /* LaunchScreen.storyboard */; };
+		C468FBF4277C863C005EE775 /* TreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C468FBF3277C863C005EE775 /* TreeView.swift */; };
+		C468FBF6277C865E005EE775 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C468FBF5277C865E005EE775 /* Model.swift */; };
+		C468FBF8277C8755005EE775 /* AutoLayout+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C468FBF7277C8755005EE775 /* AutoLayout+Extension.swift */; };
+		C468FBFA277CB545005EE775 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C468FBF9277CB545005EE775 /* MarqueeLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C468FBE8277C85C9005EE775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C468FBEB277C85C9005EE775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C468FBED277C85C9005EE775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C468FBF3277C863C005EE775 /* TreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeView.swift; sourceTree = "<group>"; };
+		C468FBF5277C865E005EE775 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C468FBF7277C8755005EE775 /* AutoLayout+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AutoLayout+Extension.swift"; sourceTree = "<group>"; };
+		C468FBF9277CB545005EE775 /* MarqueeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		C468FBDE277C85C8005EE775 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				C468FBF3277C863C005EE775 /* TreeView.swift */,
+				C468FBF9277CB545005EE775 /* MarqueeLabel.swift */,
+				C468FBF7277C8755005EE775 /* AutoLayout+Extension.swift */,
+				C468FBF5277C865E005EE775 /* Model.swift */,
 				C468FBDF277C85C8005EE775 /* AppDelegate.swift */,
 				C468FBE1277C85C8005EE775 /* SceneDelegate.swift */,
 				C468FBE3277C85C8005EE775 /* ViewController.swift */,
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C468FBF6277C865E005EE775 /* Model.swift in Sources */,
+				C468FBF4277C863C005EE775 /* TreeView.swift in Sources */,
+				C468FBF8277C8755005EE775 /* AutoLayout+Extension.swift in Sources */,
 				C468FBE4277C85C8005EE775 /* ViewController.swift in Sources */,
+				C468FBFA277CB545005EE775 /* MarqueeLabel.swift in Sources */,
 				C468FBE0277C85C8005EE775 /* AppDelegate.swift in Sources */,
 				C468FBE2277C85C8005EE775 /* SceneDelegate.swift in Sources */,
 			);
